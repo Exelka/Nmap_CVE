@@ -53,6 +53,7 @@ if os.path.exists:
             print()
             conf = ['nmap',host]   
             subprocess.call(conf)
+            print()
         
         elif numb == '3':
             os.system('clear')
