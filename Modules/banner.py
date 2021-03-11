@@ -6,5 +6,5 @@ def banner():
     print(colored('|  \| | `_ ` _ \ / _` | `_ \          | |    \ \ / /|  _|  ', 'green'))
     print(colored('| |\  | | | | | | (_| | |_) |         | |___  \ V / | |___ ', 'green'))
     print(colored('|_| \_|_| |_| |_|\__,_| .__/   _____   \____|  \_/  |_____|', 'green'))
-    print(colored('                      |_|     |_____|                      ', 'green'))
+    print(colored('                      |_|     |_____|                        v1.0', 'green'))
 
