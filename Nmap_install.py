@@ -34,6 +34,7 @@ if system == '1':
 
     try:
         os.system('pip install colored')
+        os.system('pip install termcolor')
         os.system('pip install requests')
         os.system('clear')
         print('successfully donwload lib')
@@ -88,6 +89,7 @@ elif system == '2':
 
     try:
         os.system('pip install colored')
+        os.system('pip install termcolor')
         os.system('pip install requests')
         os.system('clear')
         print('successfully donwload lib')
