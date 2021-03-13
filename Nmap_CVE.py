@@ -10,7 +10,7 @@ import subprocess
 try:
     from termcolor import colored
 except ModuleNotFoundError:
-    print(colored('Error 01 - No library "termcolor" please run "pip install termcolor" ', 'red'))
+    print('Error 01 - No library "termcolor" please run "pip install termcolor"')
     time.sleep(5)
     sys.exit(0)
 
