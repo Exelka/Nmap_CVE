@@ -33,7 +33,7 @@ file_path = "usr/share/nmap/scripts/vulners.nse"
 if os.path.exists:
     banner()
     while True:
-        print('[1] - run Nmap_CVE\n[2] - run Nmap\n[3] - info\n[4] - update')
+        print('[1] - run Nmap_CVE\n[2] - run Nmap\n[3] - info\n[4] - update\n[5] - exit')
         numb = input(colored('#: ', 'red'))
 
         if numb == '1':
