@@ -60,7 +60,7 @@ if os.path.exists:
             print('Wrote the code Extremmer781\nVK - vk.com/extremmer781\nTelegram - t.me/extremmer781')
         elif numb == '4':
             update = input(colored('Update Nmap_CVE? (Yes/No): ', 'green'))
-            if update == 'Yes':
+            if update == 'Yes' or update == 'y' or update == 'Y':
                 os.system('clear')
                 banner()
                 print('The repository will download in ~/ or to your desktop\n(depending on your system)')
@@ -73,7 +73,10 @@ if os.path.exists:
             else:
                 os.system('clear')
                 banner()
-                print(colored('Update rejected'))   
+                print(colored('Update rejected'))
+        elif numb == '5':
+        	print('Exit...')
+        	sys.exit(0)
         else:
             os.system('clear')
             banner()
@@ -87,7 +90,7 @@ else:
     updateV = input(colored('setup "vulners.nse"? (Yes/No): ', 'green'))
 
     if updateV == 'Yes':
-        os.system('sudo python3 Nmap_install.py')
+        os.system('sudo python3 Nmap_install.py || python3 Nmap_install.py')
     else:
         print('Exit...')
         sys.exit(0)
