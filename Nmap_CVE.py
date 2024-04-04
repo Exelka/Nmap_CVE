@@ -67,7 +67,7 @@ if os.path.exists:
                 print('The script will reload automatically...')
                 print('Update will start in 10 seconds...')
                 time.sleep(10)
-                os.system('sh Nmap_update.sh')
+                os.system('sudo sh Nmap_update.sh ||sh Nmap_update.sh')
                 time.sleep(5)
                 sys.exit(0)
             else:
