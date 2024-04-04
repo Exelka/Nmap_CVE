@@ -3,7 +3,7 @@ rm -rf Modules/
 rm -rf Nmap_install.py
 rm -rf Nmap_update.sh
 rm -rf Nmap_CVE.py
-rm -rf README.MD
+rm -rf README.md
 cd ..
 rm -rf Nmap_CVE/
 git clone https://github.com/Exelka/Nmap_CVE
